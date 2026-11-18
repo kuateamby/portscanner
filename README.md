@@ -8,6 +8,12 @@
 
 Fast multithreaded TCP/UDP port scanner & OS detector for Windows. C++17, single file, zero dependencies except `ws2_32.lib`. Async `connect()` engine with `WSAPoll()` batching — thousands of ports per second.
 
+### 🛡️ VirusTotal
+
+You can check the latest release binary on VirusTotal:  
+[VirusTotal Report](https://www.virustotal.com/gui/file/fef64f71845132c7c1d47bb886abd9ac8d62fb3b4eccb6d2efa82ca9f6ca2088?nocache=1)  
+*(Note: Some antivirus vendors may flag port scanners as "HackTool" or "Riskware" due to their nature. This is a false positive.)*
+
 ### Features
 
 - ⚡ Async `connect()` + `WSAPoll()` — up to 4096 sockets per batch
@@ -51,8 +57,13 @@ Use only against hosts you own or have explicit written permission to scan. Unau
 
 ## 🇷🇺 Русский
 
-Быстрый многопоточный TCP/UDP сканер портов и определитель ОС для Windows. C++17, один файл, ноль зависимостей кроме `ws2_32.lib`. Асинхронный `connect()` с пакетной обработкой через `WSAPoll()` — тысячи портов в секунду.
+Быстрый многопоточный TCP/UDP сканер портов и определитель ОС для Windows. C++17, один файл, ноль зависимостей кроме `ws2_32.lib`. Асинхронный `connect()` с пакетной обработкой через `WSAPoll()` — тысячи портов в 
+секунду.
 
+### 🛡️ VirusTotal
+Проверить бинарник последнего релиза на вирусы можно здесь:
+Отчет VirusTotal
+*(Примечание: некоторые антивирусы могут помечать сканеры портов как "HackTool" или "Riskware" из-за их природы. Это ложное срабатывание.)*
 ### Возможности
 
 - ⚡ Асинхронный `connect()` + `WSAPoll()` — до 4096 сокетов на пачку
