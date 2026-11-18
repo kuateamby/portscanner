@@ -60,15 +60,6 @@ Use only against hosts you own or have explicit written permission to scan. Unau
 - 🧵 До 128 потоков, авто-подстройка под CPU
 - 📦 Нужен только `ws2_32.lib` (встроен в Windows)
 
-### Сборка
-
-```bash
-# MinGW
-g++ -O3 -march=native -std=c++17 portscanner.cpp -o portscanner.exe -lws2_32
-
-# MSVC
-cl /O2 /GL /EHsc /std:c++17 portscanner.cpp ws2_32.lib
-```
 
 ### Использование
 
@@ -101,5 +92,3 @@ Done. Open ports: 4 | Time: 87 ms | Speed: 11770 ports/sec
 ### ⚠️ Отказ от ответственности
 
 Используйте только против хостов, которыми владеете, или на которые есть письменное разрешение. Несанкционированное сканирование может нарушать закон (ст. 272 УК РФ, CFAA, CMA). Автор не несёт ответственности за misuse.
-
-### First commit
